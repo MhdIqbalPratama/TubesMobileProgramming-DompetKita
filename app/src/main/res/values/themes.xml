@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TabunganQ" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="strokeColor">@color/green_100</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="tabColor">@color/tab_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="backgroundCustom">
+        <item name="android:background">@drawable/bg_top_rounded</item>
+    </style>
+
+    <style name="cardCustomStyle">
+        <item name="android:background">@drawable/bg_custom_card</item>
+    </style>
+
+    <style name="tabDefaultStyle">
+        <item name="android:background">@drawable/bg_tab_default</item>
+    </style>
+
+    <style name="tabSelectorStyle">
+        <item name="android:background">@drawable/tab_selector</item>
+    </style>
+
+    <style name="tabTextSelectorStyle">
+        <item name="android:textColor">@drawable/tab_text_selector</item>
+    </style>
+
+    <style name="radioSelectorStyle">
+        <item name="android:background">@drawable/bg_radiobutton_selector</item>
+    </style>
+
+    <style name="radioTextSelectorStyle">
+        <item name="android:textColor">@drawable/bg_text_radiobutton_selector</item>
+    </style>
+
+    <style name="textLight">
+        <item name="android:textColor">@color/grey_500</item>
+    </style>
+
+    <style name="strokeColor">
+        <item name="android:background">@color/grey_300</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:background">@drawable/bg_custom_edittext</item>
+        <item name="android:paddingStart">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingEnd">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="Theme.TabunganQ.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TabunganQ.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TabunganQ.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
